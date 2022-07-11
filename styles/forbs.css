@@ -1,0 +1,151 @@
+.landing-container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing-section1 {
+    background-color: rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 774px;
+    min-height: 100vh
+}
+
+.landing-section2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vh;
+    height: 700px;
+    margin-left: 2px;
+    min-height: 100vh
+}
+
+.form_title {
+    display: block;
+    align-self: start;
+    color: #48a5ea;
+    margin-bottom: 30px;
+    margin-left: 55px;
+    margin-top: 22px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.forms input {
+    font-size: 20px;
+    font: bold;
+    width: 360x;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    border: none; 
+    border-bottom: 1px solid #cbcbcb;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.panel{
+    align-self: flex-end;
+    width: 53px;
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-right: 10px;
+    background: #48a5ea;
+    border-width: 0px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.table {
+    margin-top: 88px;
+    border: rgb(176,174,174);
+    text-align: left;
+}
+
+.text label {
+    color: rgb(200,200,200);
+}
+
+.table th {
+    color: rgb(168,167,167);
+    border-top: 0px;
+}
+
+.end-title {
+    color: #48a5ea;
+    align-self: flex-end;
+    margin-right: 39px;
+}
+
+.btn-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+}
+
+.btn-left:active {
+    background: #275b83;
+}
+
+.btn-right {
+    border-bottom: 2px solid #999999;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+}
+
+.btn-right:active {
+    background: #f30707;
+}
+
+.divTable{
+	display: table;
+	width: 90%;
+}
+
+.divTableRow {
+	display: table-row;
+    height: 50px;
+    width: 337px;
+}
+
+.divTableCell, .divTableHead {
+	border-bottom: 1px solid #999999;
+	display: table-cell;
+	padding: 15px 5px;
+}
+
+.divTableBody {
+	display: table-row-group;
+}

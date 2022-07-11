@@ -1,0 +1,18 @@
+.icon_add {
+    background: url("../assets/add.svg");
+    height: 15px;
+    width: 15px;
+}
+
+.icon_write {
+    background: url("../assets/push.svg");
+    height: 15px;
+    width: 15px;
+}
+
+.icon_delete {
+    background: url("../assets/del.svg");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+}
