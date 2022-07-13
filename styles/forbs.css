@@ -95,7 +95,7 @@
 .end-title {
     color: #48a5ea;
     align-self: flex-end;
-    margin-right: 39px;
+    margin-right: 65px;
 }
 
 .btn-left {
@@ -130,6 +130,7 @@
 }
 
 .divTable{
+    margin-top: 70px;
 	display: table;
 	width: 90%;
 }
